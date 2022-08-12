@@ -24,6 +24,9 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# This file could probably be used later if collaboration is needed
+*.code-workspace
+
 # misc
 /.sass-cache
 /connect.lock

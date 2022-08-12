@@ -17,6 +17,7 @@ export class Project {
 
 /**
  * An Employer object.
+ * This object is currently depricated; I have decided not to immplenent an Employer's section for now.
  */
 export class Employer {
   employerName: String;

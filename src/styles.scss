@@ -37,3 +37,7 @@ $section-spacing: 2.8em;
   width: 1000px;
   margin: 0 auto 0 auto;
 }
+
+.section-header {
+  box-shadow: 0 -2px 7px rgba(0,0,0,0.1), 0 -1px 5px rgba(0,0,0,0.2);
+}
