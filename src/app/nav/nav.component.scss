@@ -1,10 +1,18 @@
+.over-home-component {
+  background-color: transparent;
+}
+
+.past-home-component {
+  background-color: rgba(131,70,70,1);
+  box-shadow: 0 2px 7px rgba(0,0,0,0.1), 0 1px 5px rgba(0,0,0,0.2);
+}
+
 div {
-  min-height: 70px;
+  background: linear-gradient(to top, transparent, rgba(87,34,34,0.6) 90%);
+  background-color: transparent;
   width: 100%;
   display: flex;
   position: fixed;
-  background: linear-gradient(to top, transparent, rgba(87,34,34,0.6) 90%);
-  background-color: transparent;
   justify-content: space-between;
   align-items: center;
   z-index: 5;
@@ -28,14 +36,15 @@ div {
 
       li {
         float: left;
+        padding: 1.5em;
 
         a {
           color: rgba(255,255,255,0.9);
-          padding: 1.5em;
           font-size: .8em;
-
+        
           &:hover {
-            background: linear-gradient(rgba(87,34,34,0.6), rgba(87,34,34,0.6) 17%);
+            padding-bottom: .2em;
+            border-bottom: .05em solid rgba(255,255,255,0.9);
           }
         }
       }
